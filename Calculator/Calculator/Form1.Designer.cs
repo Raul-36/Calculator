@@ -54,11 +54,10 @@
             richTextBox1.BackColor = SystemColors.ControlLightLight;
             richTextBox1.Location = new Point(12, 33);
             richTextBox1.Name = "richTextBox1";
-            richTextBox1.ReadOnly = true;
             richTextBox1.ShortcutsEnabled = false;
             richTextBox1.Size = new Size(354, 76);
             richTextBox1.TabIndex = 0;
-            richTextBox1.Text = "";
+            richTextBox1.Text = " ";
             // 
             // button1
             // 
@@ -68,6 +67,7 @@
             button1.TabIndex = 1;
             button1.Text = "1";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += numberEntry;
             // 
             // button2
             // 
@@ -77,6 +77,7 @@
             button2.TabIndex = 2;
             button2.Text = "2";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += numberEntry;
             // 
             // button3
             // 
@@ -86,6 +87,7 @@
             button3.TabIndex = 3;
             button3.Text = "3";
             button3.UseVisualStyleBackColor = true;
+            button3.Click += numberEntry;
             // 
             // button4
             // 
@@ -95,6 +97,7 @@
             button4.TabIndex = 4;
             button4.Text = "4";
             button4.UseVisualStyleBackColor = true;
+            button4.Click += numberEntry;
             // 
             // button5
             // 
@@ -104,6 +107,7 @@
             button5.TabIndex = 5;
             button5.Text = "5";
             button5.UseVisualStyleBackColor = true;
+            button5.Click += numberEntry;
             // 
             // button6
             // 
@@ -113,6 +117,7 @@
             button6.TabIndex = 6;
             button6.Text = "6";
             button6.UseVisualStyleBackColor = true;
+            button6.Click += numberEntry;
             // 
             // button7
             // 
@@ -122,6 +127,7 @@
             button7.TabIndex = 7;
             button7.Text = "7";
             button7.UseVisualStyleBackColor = true;
+            button7.Click += numberEntry;
             // 
             // button8
             // 
@@ -131,6 +137,7 @@
             button8.TabIndex = 8;
             button8.Text = "8";
             button8.UseVisualStyleBackColor = true;
+            button8.Click += numberEntry;
             // 
             // button9
             // 
@@ -140,6 +147,7 @@
             button9.TabIndex = 9;
             button9.Text = "9";
             button9.UseVisualStyleBackColor = true;
+            button9.Click += numberEntry;
             // 
             // button10
             // 
@@ -149,6 +157,7 @@
             button10.TabIndex = 10;
             button10.Text = "0";
             button10.UseVisualStyleBackColor = true;
+            button10.Click += numberEntry;
             // 
             // label1
             // 
@@ -210,7 +219,6 @@
             textBox1.Enabled = false;
             textBox1.Location = new Point(12, 6);
             textBox1.Name = "textBox1";
-            textBox1.ReadOnly = true;
             textBox1.Size = new Size(354, 23);
             textBox1.TabIndex = 17;
             textBox1.TextAlign = HorizontalAlignment.Right;
